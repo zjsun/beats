@@ -56,6 +56,7 @@ import (
 
 	// Register default processors.
 	_ "github.com/elastic/beats/libbeat/processors/actions"
+	_ "github.com/elastic/beats/libbeat/processors/actions/lookup/exec"
 	_ "github.com/elastic/beats/libbeat/processors/add_cloud_metadata"
 )
 
